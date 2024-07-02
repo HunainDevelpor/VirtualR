@@ -51,7 +51,7 @@ export default function Feedback() {
     <div className='flex  flex-wrap mt-10 lg:mt-20 '>
     {testimonials.map((list,index)=>(
         <div key={index} className=' w-full sm:w-1/2 lg:w-1/3  px-4 py-2'>
-            <div className='p-6 bg-neutral-800 text-md font-thin justify-center mx-2 my-2'>
+            <div data-aos="fade-right" className='p-6 bg-neutral-800 text-md font-thin justify-center mx-2 my-2'>
                 <p className='text-sm text-neutral-200 tracking-tight  my-2  items-center'>{list.text}</p>
                 <div className='flex  items-start'>
                         <img src={list.image}  className='w-14 h-14 mt-4 border mr-5 border-neutral-300 rounded-full' />

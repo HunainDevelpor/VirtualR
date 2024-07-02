@@ -55,7 +55,7 @@ function Feature() {
 <div className='flex flex-wrap mt-10 lg:mt-20'>
 {featureData.map((feature,index)=>(
   <div key={index} data-aos="fade-up"
-  data-aos-anchor-placement="top-center" data-aos-duration={`${500+index*1000}`} className='w-full sm:w-1/2 lg:w-1/3'>
+  data-aos-anchor-placement="top-center" data-aos-duration={`${500+index*100}`} className='w-full sm:w-1/2 lg:w-1/3'>
     <div className='flex'>
   <div className='flex mx-6 h-10 w-10 p-2 justify-center items-center bg-neutral-900 text-orange-500'>
   {feature.icon}
